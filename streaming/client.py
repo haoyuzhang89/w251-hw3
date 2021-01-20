@@ -8,9 +8,9 @@ import os
 # get the brokers address/name
 MQTT_BROKER = os.getenv('MQTT')
 # Topic
-MQTT_SEND = "streamingr"
+MQTT_SEND = "streaming"
 # OpenCV time.  This is on device0
-cap = cv.VideoCapture(0)
+cap = cv.VideoCapture(1)
 # Phao-MQTT Clinet
 client = mqtt.Client()
 # Connect
