@@ -3,7 +3,7 @@ import os
 import time
 
 MQTT_BROKER = os.getenv('MQTT')
-MQTT_RECEIVE = "home/server"
+MQTT_RECEIVE = "example"
 
 
 
