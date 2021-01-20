@@ -2,7 +2,7 @@
 
 This demo shows a basic publication subscription example.  You'll need to start by installing our MQTT client.
 ```
-install paho-mqtt
+pip3 install paho-mqtt
 ```
 
 These example require a MQTT broker to be running (see the mosquitto section).  They also read the env variable `MQTT` for the broker host.
