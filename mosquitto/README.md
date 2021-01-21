@@ -16,7 +16,7 @@ This image uses Alpine as a base then adds the mosquitto.  Finally, it starts th
 
 To build it, run the command:
 ```
-docker build -t mosquitto -f Dockerfile.mosquitto
+docker build -t mosquitto -f Dockerfile.mosquitto .
 ```
 
 And to run on the default network:
