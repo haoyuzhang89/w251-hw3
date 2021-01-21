@@ -10,6 +10,7 @@ docker build -t facedemo .
 ```
 
 
+
 ### Running
 Note, all scripts are using the device 0 for the camera and depneding on your configuration, you may need to update.
 Start an instance.
@@ -20,3 +21,5 @@ From the prompt, run `python3 haarcascade_cam.py`.
 
 
 Press 'q' to stop while a window is focused to stop the program.
+
+Note, you may need to run the command `xhost +` is Docker is unable to connect to the display.
