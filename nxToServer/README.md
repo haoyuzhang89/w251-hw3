@@ -10,6 +10,8 @@ docker network create mqtt
 ```
 This creates the network mqtt.  You can verify by running `docker network ls`.
 
+You'll want to recreate the mosquitto image on your NX.  See the mosquitto section for details.
+
 In a terminal on the nx, start the broker with the command:
 ```
 docker run -d --rm --name mqtt -p 1883:1883 --network mqtt mosquitto
